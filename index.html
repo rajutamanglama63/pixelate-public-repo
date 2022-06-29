@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pixelate</title>
+    <!-- This gets us our fun 8-bit font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- loads our own CSS file -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Pixelate</h1>
+    <div>
+      <button id='add-row'>Add a row</button>
+      <select id='color-selector'>
+        <option value="yellow">Yellow</option>
+        <option value="violet">Violet</option>
+        <option value="red">Red</option>
+        <option value="navy">Navy</option>
+        <option value="powerblue">Power-blue</option>
+      </select>
+      <select id='column-size-selector'>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+      </select>
+    </div>
+    <table class="our-table"></table>
+  </body>
+  <!-- loads our JavaScript file -->
+  <script type="text/javascript" src="/script.js"></script>
+</html>
